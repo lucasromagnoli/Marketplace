@@ -1,5 +1,10 @@
 const express = require('express')
 
-const router = require(express.Router())
+const UserController = require('./app/controllers/UserController')
+const SessionController = require('./app/controllers/SessionController')
 
-module.exports = router
+const routes = express.Router()
+
+routes.post('/users', UserController.store)
+routes.post('/sessions', SessionController.store)
+module.exports = routes

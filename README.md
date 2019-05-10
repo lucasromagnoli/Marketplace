@@ -12,6 +12,8 @@ Express
 Nodemon
 ESlint
 Mongoose
+BCryptJs
+JsonWebToken
 
 # Comandos
 
