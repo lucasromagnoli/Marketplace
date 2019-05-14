@@ -14,6 +14,7 @@ ESlint
 Mongoose
 BCryptJs
 JsonWebToken
+Require-dir
 
 # Comandos
 
