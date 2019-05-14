@@ -1,7 +1,6 @@
 const express = require('express')
 
-const UserController = require('./app/controllers/UserController')
-const SessionController = require('./app/controllers/SessionController')
+const controllers = require('./app/controllers')
 const authMiddleware = require('./app/middlewares/auth')
 
 const routes = express.Router()
@@ -9,6 +8,6 @@ const routes = express.Router()
 routes.get('/teste', authMiddleware, (req, res) => {
   return res.json({ id: req.userId })
 })
-routes.post('/users', UserController.store)
-routes.post('/sessions', SessionController.store)
+routes.post('/users', controllers.UserController.store)
+routes.post('/sessions', controllers.SessionController.store)
 module.exports = routes
