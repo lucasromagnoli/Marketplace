@@ -5,6 +5,7 @@
 MongoDB - Banco não relacional, ideal para uma aplicação que tem pouco relacionamente ou nenhum. Ganho de perfomance. Micro serviços
 Mongoose -
 Docker -
+Mailtrap
 
 # Pacotes
 
@@ -16,6 +17,9 @@ BCryptJs
 JsonWebToken
 Require-dir
 Mongoose-paginate-v2
+Node-mailer
+Nodemailer-express-handlebars
+Express-handlebars
 
 # Comandos
 
