@@ -15,6 +15,7 @@ Mongoose
 BCryptJs
 JsonWebToken
 Require-dir
+Mongoose-paginate
 
 # Comandos
 
