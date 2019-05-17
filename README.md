@@ -6,6 +6,7 @@ MongoDB - Banco não relacional, ideal para uma aplicação que tem pouco relaci
 Mongoose -
 Docker -
 Mailtrap
+Kue
 
 # Pacotes
 
@@ -24,4 +25,5 @@ Express-handlebars
 # Comandos
 
 sudo docker run --name mongonode -p 27017:27017 -d -t mongo
+sudo docker run --name noderedis -p 6379:6379 -d -t redis:alpine
 mongodb://usuario:senha@localhost:27017/nomedatabase
