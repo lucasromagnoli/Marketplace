@@ -6,7 +6,7 @@ MongoDB - Banco não relacional, ideal para uma aplicação que tem pouco relaci
 Mongoose -
 Docker -
 Mailtrap
-Kue
+Fila utilizando o Redis
 
 # Pacotes
 
@@ -21,6 +21,7 @@ Mongoose-paginate-v2
 Node-mailer
 Nodemailer-express-handlebars
 Express-handlebars
+Kue
 
 # Comandos
 
