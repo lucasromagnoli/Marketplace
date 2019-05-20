@@ -24,6 +24,8 @@ Express-handlebars
 Kue
 Joi
 Express-validation
+Youch
+Express-async-handler
 
 # Comandos
 
