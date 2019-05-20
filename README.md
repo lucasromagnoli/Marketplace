@@ -22,6 +22,8 @@ Node-mailer
 Nodemailer-express-handlebars
 Express-handlebars
 Kue
+Joi
+Express-validation
 
 # Comandos
 
