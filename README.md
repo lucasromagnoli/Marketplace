@@ -26,6 +26,7 @@ Joi
 Express-validation
 Youch
 Express-async-handler
+@sentry/node
 
 # Comandos
 
