@@ -46,7 +46,7 @@ routes.delete(
  */
 
 routes.post('/purchase', handle(controllers.PurchaseController.store))
-
+routes.put('/purchase/:id', handle(controllers.PurchaseController.update))
 /**
  * Test
  */
