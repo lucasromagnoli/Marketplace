@@ -27,6 +27,7 @@ Express-validation
 Youch
 Express-async-handler
 @sentry/node
+Dotenv
 
 # Comandos
 
