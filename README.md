@@ -10,13 +10,18 @@ API desenvolvida no bootcamp da Rocketseat GO Stack 6.0.
 
 **MongoDB:** `Banco não relacional, ideal para uma aplicação que tem pouco relacionamente ou nenhum. Alto ganho de perfomance. Excelente para micro serviços.`
 
-**Docker:** `Fornece uma camada adicional de abstração e automação de virtualização de nível de sistema operacional.<br>Ou seja, responsável pela virtualização do MongoDB e o Redis.`
+**Docker:** `Fornece uma camada adicional de abstração e automação de virtualização de nível de sistema operacional.
+Ou seja, responsável pela virtualização do MongoDB e o Redis.`
 
 **Mailtrap:** `É um sistema de SMTP fake, onde conseguimos utilizar para testar funções de envio de e-mail em uma caixa de entrada controlada.`
 
-**Sentry:** `É um sistema de monitoramento de erro em tempo real, para ser utilizado em produção. Para mapeamento e tratamento de erros.<br>Caso aconteça algum erro no servidor, o mesmo é registrado no sistema Sentry.<br>Onde, conseguimos visualizar, qual foi o erro, qual documento, qual função ocasionou o mesmo.`
+**Sentry:** `É um sistema de monitoramento de erro em tempo real, para ser utilizado em produção. Para mapeamento e tratamento de erros.
+Caso aconteça algum erro no servidor, o mesmo é registrado no sistema Sentry.
+Onde, conseguimos visualizar, qual foi o erro, qual documento, qual função ocasionou o mesmo.`
 
-**Fila utilizando o Redis**`Uma estrutura de dados do servidor, no Redis é armazenado uma chave junto com o nome de uma função.<br>E quando está chave é chamada, ele executa a função. Então assim, conseguimos otimizar serviços como o envio de e-mail. <br> Onde respondemos a requisição do usuário antes do e-mail ser enviado e enviamos o e-mail em paralelo em back-end.`
+**Fila utilizando o Redis**`Uma estrutura de dados do servidor, no Redis é armazenado uma chave junto com o nome de uma função.
+E quando está chave é chamada, ele executa a função. Então assim, conseguimos otimizar serviços como o envio de e-mail.
+Onde respondemos a requisição do usuário antes do e-mail ser enviado e enviamos o e-mail em paralelo em back-end.`
 
 # Pacotes
 
