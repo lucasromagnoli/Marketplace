@@ -1,15 +1,15 @@
 # Marketplace
 
-API desenvolvida para fins acadêmicos. O sistema responsável por gerenciar anúncios.
-Onde clientes e compradores se cadastram, públicam seus anúncios e recebem ofertas de clientes.
-Ofertas, que podem ser aceitas ou recusadas pelo autor do anúncio.
-Confira abaixo as tecnologias utilizadas no projeto.
+API desenvolvida para fins acadêmicos. O sistema responsável por gerenciar anúncios.<br>
+Onde clientes e compradores se cadastram, públicam seus anúncios e recebem ofertas de clientes.<br>
+Ofertas, que podem ser aceitas ou recusadas pelo autor do anúncio.<br>
+Confira abaixo as tecnologias utilizadas no projeto.<br>
 API desenvolvida no bootcamp da Rocketseat GO Stack 6.0.
 
 # Tecnologias
 
 ```
-MongoDB - Banco não relacional, ideal para uma aplicação que tem pouco relacionamente ou nenhum. Ganho de perfomance. Micro serviços
+MongoDB - Banco não relacional, ideal para uma aplicação que tem pouco relacionamente ou nenhum. Alto ganho de perfomance. Excelente para micro serviços.
 ```
 
 ```
@@ -35,42 +35,59 @@ Onde respondemos a requisição do usuário antes do e-mail ser enviado e enviam
 
 # Pacotes
 
-Express - Responsável por construir aplicativos da Web e APIs.
-
+**Express** ```Responsável por construir aplicativos da Web e APIs. ```
+```
 Nodemon - Utilizado em desenvolvimento para automatizar o restart do servidor a cada modificação no código fonte.
-
+```
+```
 ESlint - Utilizado em desenvolvimento para todos os membro da equipe manter um padrão de código.
-
+```
+```
 Mongoose - Fornece um mapeamento de objetos do MongoDB similar ao ORM (Object Relational Mapping), ou ODM (Object Data Mapping) no caso do Mongoose.
 Isso significa que o Mongoose traduz os dados do banco de dados para objetos JavaScript para que possam ser utilizados por sua aplicação.
-
+```
+```
 BCryptJs - Responsável pela cripotografia das senhas de usuário.
-
+```
+```
 JsonWebToken - Responsável pela autenticação do usuário.
-
+```
+```
 Require-dir - Utilizado para importarmos um diretório em inteiro. Assim conseguimos evitar códigos repetidos.
-
+```
+```
 Mongoose-paginate-v2 - Responsável por paginar as requisições ao banco de dados.
-
+```
+```
 Node-mailer - Responsável pelo envio de e-mails
-
+```
+```
 Nodemailer-express-handlebars - Responsável em conjunto do Express-handlebars por gerenciar os templates de e viewEngines do serviço de envio de e-mail.
-
+```
+```
 Express-handlebars - Responsável em conjunto do Nodemailer-express por gerenciar os templates de e viewEngines do serviço de envio de e-mail.
-
+```
+```
 Kue - Responsável pelo sistema de Fila.
-
+```
+```
 Joi - Facilita a criação de validações de requisições.
-
+```
+```
 Express-validation - Junto do Joi é responsável pela validação das requisições.
-
+```
+```
 Youch - Responsável por retornar os erros de uma maneira mais simples.
-
+```
+```
 Express-async-handler - Responsável por fazer as promises retornarem exceptions.
-
+```
+```
 @sentry/node - Necessário para utilziar a tecnologia Sentry. Onde registra e mapeia erros que acontecem em produção.
-
+```
+```
 Dotenv - Utilizado para utilizarmos o sistema de environments
+```
 
 # Comandos de configuração /#Docker
 
