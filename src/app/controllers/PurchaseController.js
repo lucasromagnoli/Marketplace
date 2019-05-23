@@ -11,13 +11,23 @@ class PurchaseController {
     const ad = await Ad.findById(adId).populate('author -password')
     const user = await User.findById(req.userId)
 
+    // if (ad.author.id === user.id) {
+    //   return res
+    //     .status(400)
+    //     .json({ error: 'Não é possível comprar o próprio produto.' })
+    // }
+
+    const purchase = await Purchase.create({
+      ad,
+      user,
+      content
+    })
+
     Queue.create(PurchaseMail.key, {
       ad,
       user,
       content
     }).save()
-
-    const purchase = await Purchase.create({ ad, user, content })
 
     return res.json(purchase)
   }
